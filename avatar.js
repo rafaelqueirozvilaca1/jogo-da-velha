@@ -18,3 +18,11 @@ file.addEventListener('change', () => {
 
     reader.readAsDataURL(file.files[0]);
 });
+
+let avatarButtons = document.querySelectorAll('.avatar');
+
+avatarButtons.forEach((avatarButton) => {
+    avatarButton.addEventListener('click', () => {
+        photo.src = avatarButton.src;
+    });
+});
