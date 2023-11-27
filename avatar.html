@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avatar</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/avatar.css">
+</head>
+<body>
+    <header>
+        <h2>Jogo da Velha</h2>
+        <nav>
+            <ul id="links-menu">
+                <li><a href="index.html">Inicial</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="avatar.html">Avatar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <span class="avatar">
+        <h3>AVATAR</h3>
+            <div class="card-texto">
+                <p>Clique no icone e faça upload de uma imagem ou selecione um avatar abaixo.</p>
+            </div>
+            <div class="escolher-foto">
+                <img src="imagens/avatar.png" alt="foto" class="foto">
+            </div>
+            <input type="string" id="nome" placeholder="Nome - Jogador 2">
+            <input type="file" id="flImage" name="fImage" accept="image/*">
+            <div class="card">
+                <button id="botao-anterior"><</button>
+                <div class="avatars">
+                    <img src="imagens/avatar1.png" alt="avatar" class="avatar">
+                    <img src="imagens/avatar2.png" alt="avatar" class="avatar">
+                    <img src="imagens/avatar3.png" alt="avatar" class="avatar">
+                </div>
+                <button id="botao-proximo">></button>  
+            </div>
+
+    </span>
+    <script src="js/jquery.js"></script>
+    <script src="js/avatar.js"></script> 
+    <script src="js/jogo.js"></script>
+</body>
+</html>
