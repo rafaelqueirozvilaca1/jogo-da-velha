@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/avatar.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h2>Jogo da Velha</h2>
+        <nav>
+            <ul id="links-menu">
+                <li><a href="index.html">Inicial</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="avatar.html">Avatar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="numero-jogadores" class="">
+        <div id="primeiro-botao">
+            <button id="botao-um-jogador">1 jogador</button>
+        </div>
+        <div id="segundo-botao">
+            <button id="botao-dois-jogadores">2 jogadores</button>
+        </div>
+    </div>
+
+    <!--<span class="avatar ocultar">
+        <h3>AVATAR</h3>
+            <span class="primeiro-jogador ocultar">
+            -->
+            <!--
+            <div class="card-texto">
+                <p>Clique no icone e faça upload de uma imagem ou selecione um avatar abaixo.</p>
+            </div>
+            <div class="escolher-foto">
+                <img src="imagens/avatar.png" alt="foto" class="foto">
+            </div>
+            <input type="string" id="nome-jogador-dois" placeholder="Nome - Jogador 1">
+            <input type="file" id="flImage" name="fImage" accept="image/*">
+            <div class="card">
+                <button id="botao-anterior"><</button>
+                <div class="avatars">
+                    <img src="imagens/avatar1.png" alt="avatar" class="avatar">
+                    <img src="imagens/avatar2.png" alt="avatar" class="avatar">
+                    <img src="imagens/avatar3.png" alt="avatar" class="avatar">
+                </div>
+                <button id="botao-proximo">></button>  
+            </div>
+         </span> 
+        <span class="segundo-jogador ocultar">
+            <div class="card-texto">
+                <p>Clique no icone e faça upload de uma imagem ou selecione um avatar abaixo.</p>
+            </div>
+            <div class="escolher-foto">
+                <img src="imagens/avatar.png" alt="foto" class="foto">
+            </div>
+            <input type="string" id="nome-jogador-dois" placeholder="Nome - Jogador 2">
+            <input type="file" id="flImage" name="fImage" accept="image/*">
+            <div class="card">
+                <button id="botao-anterior"><</button>
+                <div class="avatars">
+                    <img src="imagens/avatar1.png" alt="avatar" class="avatar">
+                    <img src="imagens/avatar2.png" alt="avatar" class="avatar">
+                    <img src="imagens/avatar3.png" alt="avatar" class="avatar">
+                </div>
+                <button id="botao-proximo">></button>  
+            </div>
+        </span>
+        -->
+
+        <span id="jogo">
+            <div id="jogador-1">
+                <img src="" alt="avatar do jogador 1">
+                <img src="" alt="opcao escolhida (bolinha ou x) - jogador 1" id="opcao-jogador-1">
+            </div>
+            <div id="vez">
+            </div>
+            <div id="tabuleiro">
+                <span>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </span>
+            </div>
+            <div id="jogo"></div>
+            <div id="jogador-2">
+                <img src="" alt="avatar do jogador 2">
+                <img src="" alt="opcao escolhida (bolinha ou x) - jogador 2" id="opcao-jogador-2">
+            </div>
+        </span>
+    <!--</span>-->
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/jogo.js"></script>
+    <!-- <script src="js/avatar.js"></script> -->
+</body>
+</html>
