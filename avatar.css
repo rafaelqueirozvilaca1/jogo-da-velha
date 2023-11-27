@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+h3 {
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 70px;
+    margin-left: 10%;
+    color: white;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 5%;
+}
+
+.card-texto {
+    background-color: #3c0384;
+    width: 36%;
+    height: 10%;
+    margin-left: 10%;
+}
+
+.foto {
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-top: 6%;
+    background-color: white;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.foto:hover {
+    background-color: black;
+    border: 5px solid white;
+}
+
+.avatar {
+    width: 25%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card {
+    width: 55%;
+    background-color: white;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: -170px;
+    left: -30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+}
+
+.avatars img {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div {
+    display: flex;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.card button {
+    border-radius: 50%;
+    height: 50px;
+    background-color: #28acec;
+    color: #3c0384;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    width: 200px;
+    font-size: 50px;
+}
+
+.card button:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#botao-anterior {
+    position: relative;
+    left: -50px;
+    bottom: -60px;
+}
+
+#botao-proximo {
+    position: relative;
+    right: -30px;
+    bottom: -60px;
+}
+
+.avatar:hover {
+    cursor: pointer;
+    /* border: 7px solid purple; */
+}
+
+#nome {
+    margin-left: 13%;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.ocultar {
+    display: none;
+}
