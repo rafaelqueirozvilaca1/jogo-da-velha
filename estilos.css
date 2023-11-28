@@ -92,16 +92,31 @@ header nav ul li a {
     font-size: 70px;
     font-family: 'Rubik Mono One', sans-serif;
     color: white;
+    margin-left: 10%;
 }
 
-#autor-rafael h3, #autor-luiza h3, #autor-wesley h3 {
-    color: white;
-}
-
-#autor-rafael p, #autor-luiza p, #autor-wesley p {
-    font-family: 'Open Sans', sans-serif;
+#autores h3 {
+    display: flex;
+    justify-content: center; 
+    font-size: 200%;
+    background-color: #28acec;
+    padding: 15px 15px;
+    border-style: double;
 }
 
 #autor-rafael, #autor-luiza, #autor-wesley {
-    background-color: #28acec;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#autor-rafael p, #autor-luiza p, #autor-wesley p {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 6px 6px 10px #000;
 }
